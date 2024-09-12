@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs  # Set output directory for GitHub Pages
+
+website:
+  title: "Richard_Sen_Xiao"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
